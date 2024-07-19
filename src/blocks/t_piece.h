@@ -8,7 +8,7 @@ class Block;
 class TPiece : public Block
 {
 public:
-    static const BLOCK_COLOR color = COLOR_MAGENTA;
+    static constexpr BLOCK_COLOR color = COLOR_MAGENTA;
     TPiece();
 };
 

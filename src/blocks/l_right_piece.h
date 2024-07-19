@@ -8,7 +8,7 @@ class Block;
 class LRightPiece : public Block
 {
 public:
-    static const BLOCK_COLOR color = COLOR_RED;
+    static constexpr BLOCK_COLOR color = COLOR_RED;
     LRightPiece();
 };
 

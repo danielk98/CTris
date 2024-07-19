@@ -19,6 +19,7 @@ public:
     void moveUp();
     virtual Block *rotate();
     const std::vector<Square *> getSquares();
+    const Square * getCenterOfRotation();
 
 protected:
     Square *centerOfRotation;

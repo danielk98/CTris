@@ -8,7 +8,7 @@ class Block;
 class SnakeLeftPiece : public Block
 {
 public:
-    static const BLOCK_COLOR color = COLOR_GREEN;
+    static constexpr BLOCK_COLOR color = COLOR_GREEN;
     SnakeLeftPiece();
 };
 

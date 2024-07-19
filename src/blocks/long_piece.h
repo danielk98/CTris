@@ -8,7 +8,7 @@ class Block;
 class LongPiece : public Block
 {
 public:
-    static const BLOCK_COLOR color = COLOR_CYAN;
+    static constexpr BLOCK_COLOR color = COLOR_CYAN;
     LongPiece();
     LongPiece(std::vector<Square *>, Square *center);
     Block *rotate() override;

@@ -53,6 +53,10 @@ const std::vector<Square *> Block::getSquares()
     return blocks;
 }
 
+const Square* Block::getCenterOfRotation()
+{  
+    return centerOfRotation;
+}
 /*
     Rotate a block around its center
 */

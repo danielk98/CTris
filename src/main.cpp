@@ -8,7 +8,7 @@
 #include "../include/constants.h"
 #include "../include/all_blocks.h"
 
-void initColors();
+constexpr void initColors();
 bool canMoveRight(Block block, GameWindow &win);
 bool canMoveLeft(Block block, GameWindow &win);
 bool canMoveDown(Block block, GameWindow &win);
@@ -274,7 +274,7 @@ bool canMoveDown(Block block, GameWindow &win)
 /*
 	Create all colors pairs for use later 
 */
-void initColors()
+constexpr void initColors()
 {
 	for (int i = COLOR_BLACK; i <= COLOR_WHITE; i++)
 	{

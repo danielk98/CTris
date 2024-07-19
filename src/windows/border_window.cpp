@@ -4,11 +4,11 @@
 #include "string.h"
 #include "../../include/constants.h"
 
-const int scoreX = 31;
-const int scoreY = 7;
-const int length = 19;
-const int nextX = 31;
-const int nextY = 19;
+constexpr int scoreX = 31;
+constexpr int scoreY = 7;
+constexpr int length = 19;
+constexpr int nextX = 31;
+constexpr int nextY = 19;
 std::vector<std::pair<int, int>> curPieceCords;
 const char *bannerString[length] = {
     "  ___  _____      _     ",

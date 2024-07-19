@@ -8,7 +8,7 @@ class Block;
 class LLeftPiece : public Block
 {
 public:
-    static const BLOCK_COLOR color = COLOR_WHITE;
+    static constexpr BLOCK_COLOR color = COLOR_WHITE;
     LLeftPiece();
 };
 

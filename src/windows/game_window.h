@@ -11,8 +11,8 @@ class GameWindow : public Window
 {
 
 public:
-    const static int ROWS = BOARD_HEIGHT;
-    const static int COLS = BOARD_WIDTH;
+    constexpr static int ROWS = BOARD_HEIGHT;
+    constexpr static int COLS = BOARD_WIDTH;
     GameWindow(int width, int height, int startY, int startX);
     void render();
     void initWindow();
